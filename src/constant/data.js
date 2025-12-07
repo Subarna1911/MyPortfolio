@@ -9,7 +9,6 @@ import material from '../assets/material.svg';
 import git from '../assets/git.svg';
 import postman from '../assets/postman.png';
 import next from '../assets/next-js.svg';
-import elementorPhoto from '../assets/elementorClone.png';
 import github from '../assets/github.png';
 import linkedIn from  '../assets/linkedIn.png';
 import  youtube from '../assets/youtube.avif';
