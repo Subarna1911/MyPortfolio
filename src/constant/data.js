@@ -13,7 +13,6 @@ import github from '../assets/github.png';
 import linkedIn from  '../assets/linkedIn.png';
 import  youtube from '../assets/youtube.avif';
 import gmail from '../assets/gmailLogo.webp';
-
   
 export const aboutContents = [
   {
@@ -65,8 +64,7 @@ export const techLogos = [
  export const projectsData = [
 
 {
-  
-
+  video: "https://www.youtube.com/embed/xynZYjZ9Z20?autoplay=1&mute=1&controls=0&loop=1&playlist=xynZYjZ9Z20",
   projectName:"FilmyGpt",
   projectDetails:"Developed FimlyGPT, a Netflix-style streaming interface built with React.js and Tailwind CSS, leveraging Redux for state management. Integrated OpenAI APIs to deliver dynamic, user-specific movie recommendations based on search parameters. Implemented responsive UI, secure API handling, and seamless real-time content filtering for an elevated user experience.",
   projectLink:"https://github.com/Subarna1911/Filmygpt.git",
@@ -74,39 +72,19 @@ export const techLogos = [
 
 
 {
- 
+ video:"",
   projectName:"UTube",
   projectDetails:"Developed FimlyGPT, a Netflix-style streaming interface built with React.js and Tailwind CSS, leveraging Redux for state management. Integrated OpenAI APIs to deliver dynamic, user-specific movie recommendations based on search parameters. Implemented responsive UI, secure API handling, and seamless real-time content filtering for an elevated user experience.",
   projectLink:"https://github.com/Subarna1911/Filmygpt.git",
 },
 
 {
-  
+  video:"https://www.youtube.com/embed/mYKB3NPlbzU?autoplay=1&mute=1&controls=0&loop=1&playlist=mYKB3NPlbzU",
   projectName:"Elementor Clone",
   projectDetails:"A fully responsive Elementor-style page builder clone built using plain HTML, CSS, and JavaScript. This project replicates core UI interactions, drag-and-drop layout behavior, and modular component styling—demonstrating strong fundamentals in clean interface architecture and pixel-perfect responsive design without relying on external frameworks",
   projectLink:"https://github.com/Subarna1911/CodeFlicks.git",
 },
 
-{
-
-  projectName:"FilmyGpt",
-  projectDetails:"Developed FimlyGPT, a Netflix-style streaming interface built with React.js and Tailwind CSS, leveraging Redux for state management. Integrated OpenAI APIs to deliver dynamic, user-specific movie recommendations based on search parameters. Implemented responsive UI, secure API handling, and seamless real-time content filtering for an elevated user experience.",
-  projectLink:"https://github.com/Subarna1911/Filmygpt.git",
-},
-
-{
-
-  projectName:"UTube",
-  projectDetails:"Developed FimlyGPT, a Netflix-style streaming interface built with React.js and Tailwind CSS, leveraging Redux for state management. Integrated OpenAI APIs to deliver dynamic, user-specific movie recommendations based on search parameters. Implemented responsive UI, secure API handling, and seamless real-time content filtering for an elevated user experience.",
-  projectLink:"https://github.com/Subarna1911/Filmygpt.git",
-},
-
-{
-
-  projectName:"UTube",
-  projectDetails:"Developed FimlyGPT, a Netflix-style streaming interface built with React.js and Tailwind CSS, leveraging Redux for state management. Integrated OpenAI APIs to deliver dynamic, user-specific movie recommendations based on search parameters. Implemented responsive UI, secure API handling, and seamless real-time content filtering for an elevated user experience.",
-  projectLink:"https://github.com/Subarna1911/Filmygpt.git",
-},
 ]
 
 export const projects  = "https://github.com/Subarna1911";

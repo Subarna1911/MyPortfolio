@@ -5,7 +5,6 @@ import {useRef, useEffect} from 'react'
 
 const Home = ({heroRef}) => {
 
-
   const videoRef = useRef(null);
   useEffect (()=>{
 
