@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+body{
+  font-family:"Hanken Grotesk", sans-serif;
+}
+
+h1, h2, h3{
+ font-family: 'Erode', serif;
+}
+
+@layer utilities{
+  .spacing-md{
+    padding:6rem 0;
+  }
+
+  .spacing-sm{
+    padding:4rem 0;
+  }
+}
+
+/* Define custom keyframes */
+@keyframes scroll {
+  
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@theme{
+   --animate-scroll: scroll 40s linear infinite;
+}
+
+.custom-nav {
+  background: rgb(212, 209, 209);
+  width: 40px;
+  height: 40px;
+  border-radius: 9999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-nav svg {
+  width: 30px !important;
+  height: 30px !important;
+  color: black !important;
+}
