@@ -1,5 +1,6 @@
 import React from 'react'
 import {ArrowDownRight} from 'lucide-react'
+
 import {useRef, useEffect} from 'react'
 
 const Home = ({heroRef}) => {
@@ -22,7 +23,16 @@ const Home = ({heroRef}) => {
   sm:min-h-[90vh] flex items-center justify-center overflow-hidden"
 >
   {/* Video Background */}
- 
+  <video
+   ref={videoRef}
+     src="/bgVideo.mp4" 
+      autoPlay
+      loop
+      muted
+      playsInline
+    className="absolute inset-0 w-full h-full object-cover object-center"
+  />
+
   {/* Overlay */}
   <div className="absolute inset-0 bg-black/40" />
 
