@@ -82,7 +82,7 @@ export const techLogos = [
   video:"https://www.youtube.com/embed/mYKB3NPlbzU?autoplay=1&mute=1&controls=0&loop=1&playlist=mYKB3NPlbzU",
   projectName:"Elementor Clone",
   projectDetails:"A fully responsive Elementor-style page builder clone built using plain HTML, CSS, and JavaScript. This project replicates core UI interactions, drag-and-drop layout behavior, and modular component styling—demonstrating strong fundamentals in clean interface architecture and pixel-perfect responsive design without relying on external frameworks",
-  projectLink:"https://github.com/Subarna1911/CodeFlicks.git",
+  projectLink:"https://subarna1911.github.io/Elementor-Site-Clone/",
 },
 
 ]
