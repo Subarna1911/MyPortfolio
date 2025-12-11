@@ -69,7 +69,7 @@ const Projects = () => {
           <div className="flex justify-center">
             <a href={projects}>
               <button className="border my-6 rounded-full flex px-6 gap-4 items-center h-16 hover:cursor-pointer transition-all duration-300 hover:text-pink-600 hover:border-pink-600  hover:scale-105 hover:shadow-lg active:scale-95 group">
-                Check out My Work <span className="transition-transform duration-300 group-hover:translate-x-1"><MoveRight/></span>
+                Check Out My Work <span className="transition-transform duration-300 group-hover:translate-x-1"><MoveRight/></span>
               </button>
             </a>
           </div>
